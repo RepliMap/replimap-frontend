@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { ClerkProviderWrapper } from "@/components/clerk-provider";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "sonner";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -119,6 +120,17 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <Toaster
+              theme="dark"
+              position="top-right"
+              toastOptions={{
+                style: {
+                  background: "#030712",
+                  border: "1px solid #1e293b",
+                  color: "#f5f5f5",
+                },
+              }}
+            />
           </ThemeProvider>
         </body>
       </html>
