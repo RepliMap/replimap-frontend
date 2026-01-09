@@ -20,43 +20,43 @@ export const PRICING_CONFIG = {
     monthly: {
       priceId: isLive
         ? "price_live_solo_monthly"
-        : "price_test_solo_monthly",
+        : "price_1SiMWsAKLIiL9hdweoTnH17A",
       price: 49,
     },
     annual: {
-      priceId: isLive ? "price_live_solo_annual" : "price_test_solo_annual",
+      priceId: isLive ? "price_live_solo_annual" : "price_1SiMpmAKLIiL9hdwhhn1dAVG",
       price: 490,
     },
     lifetime: {
       priceId: isLive
         ? "price_live_solo_lifetime"
-        : "price_test_solo_lifetime",
+        : "price_1SnWcwAKLIiL9hdw5dyMAIfw",
       price: 299,
     },
   },
   pro: {
     name: "Pro",
     monthly: {
-      priceId: isLive ? "price_live_pro_monthly" : "price_test_pro_monthly",
+      priceId: isLive ? "price_live_pro_monthly" : "price_1SiMYgAKLIiL9hdwZLjLUOPm",
       price: 99,
     },
     annual: {
-      priceId: isLive ? "price_live_pro_annual" : "price_test_pro_annual",
+      priceId: isLive ? "price_live_pro_annual" : "price_1SiMqMAKLIiL9hdwj1EgfQMs",
       price: 990,
     },
     lifetime: {
-      priceId: isLive ? "price_live_pro_lifetime" : "price_test_pro_lifetime",
+      priceId: isLive ? "price_live_pro_lifetime" : "price_1SnWdSAKLIiL9hdwRH0bMHtw",
       price: 499,
     },
   },
   team: {
     name: "Team",
     monthly: {
-      priceId: isLive ? "price_live_team_monthly" : "price_test_team_monthly",
+      priceId: isLive ? "price_live_team_monthly" : "price_1SiMZvAKLIiL9hdw8LAIvjrS",
       price: 199,
     },
     annual: {
-      priceId: isLive ? "price_live_team_annual" : "price_test_team_annual",
+      priceId: isLive ? "price_live_team_annual" : "price_1SiMrJAKLIiL9hdwF8xq4poz",
       price: 1990,
     },
     // Team has no lifetime option
